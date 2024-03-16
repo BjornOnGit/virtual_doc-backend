@@ -19,6 +19,7 @@ class BookNow(models.Model):
 
     def __str__(self):
         return self.name
+
 class PatientInfo(models.Model):
     appointment = models.ForeignKey(BookAppointment, on_delete=models.CASCADE)
     age = models.IntegerField()

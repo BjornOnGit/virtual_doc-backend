@@ -73,7 +73,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://virtual-doctor.netlify.app/'
+    'https://virtual-doctor.netlify.app'
 ]
 
 ROOT_URLCONF = 'virtual_doc.urls'

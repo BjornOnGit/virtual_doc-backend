@@ -75,4 +75,23 @@ git branch your_branch_name
 git checkout your_branch_name
 ```
 
+## Endpoints
+
+To view the endpoints, please visit the API docs at [Virtual Doctor API docs](https://virtual-doc-api-7610edfd4b12.herokuapp.com/api/v1/docs/)
+
+## Environment Variables
+
 We introduced environment variables and a .env file to store them this early in order to ensure that the project is not broken by the introduction of new environment variables. This is to ensure that the project is always in a working state. Please let us know if you need to add any environment variables.
+
+## Integrations
+
+We are currently integrating the following services:
+
+- Google Maps and Places API for both the laboratory and pharmacy locator
+- OpenAI API Chatbot Platform for the virtual doctor chatbot
+
+## Note
+
+When contributing to the project, please ensure that you do not push any sensitive information to the repository. This includes the .env file and any other sensitive information.
+Always create a pull request and wait for it to be reviewed before merging it to the main branch.
+DO NOT PUSH DIRECTLY TO THE MAIN BRANCH.

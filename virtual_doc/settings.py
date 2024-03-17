@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'corsheaders',
     #local apps
     'formhandlers.apps.FormhandlersConfig',
+    'lab_locations.apps.LabLocationsConfig',
+    'chatbot.apps.ChatbotConfig',
 ]
 
 REST_FRAMEWORK = {
@@ -149,3 +151,5 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GOOGLE_MAPS_API_KEY = env.str("GOOGLE_MAPS_API_KEY")
+
+OPENAI_API_KEY = env.str("OPENAI_API_KEY")

@@ -26,7 +26,7 @@ class PatientInfo(models.Model):
     sex = models.CharField(max_length=20, default='Not specified')
     weight = models.IntegerField()
     height = models.IntegerField()
-    blood_pressure = models.CharField(max_length=10)
+    blood_pressure = models.CharField(max_length=20)
     temperature = models.IntegerField()
     medical_history = models.TextField()
 

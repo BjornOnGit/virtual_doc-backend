@@ -23,7 +23,6 @@ class BookNow(models.Model):
 class PatientInfo(models.Model):
     appointment = models.ForeignKey(BookAppointment, on_delete=models.CASCADE)
     age = models.IntegerField()
-    sex = models.CharField(max_length=20, default='Not specified')
     weight = models.IntegerField()
     height = models.IntegerField()
     blood_pressure = models.CharField(max_length=20)

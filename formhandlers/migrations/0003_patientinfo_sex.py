@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='patientinfo',
             name='sex',
-            field=models.CharField(default='Not specified', max_length=10),
+            field=models.CharField(default='None', max_length=10),
         ),
     ]

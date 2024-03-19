@@ -14,7 +14,7 @@ class BookNowSerializer(serializers.ModelSerializer):
 class PatientInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = PatientInfo
-        fields = ['age', 'weight', 'sex', 'height', 
+        fields = ['age', 'weight', 'height', 
                   'blood_pressure', 'temperature', 
                   'medical_history'
                 ]
